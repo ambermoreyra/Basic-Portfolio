@@ -1,8 +1,55 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: row;
+body {
+    background: purple;
 }
+
+header {
+    background: white;
+}
+
+.clearfix::after {
+content:"";
+display: block;
+clear: both;
+}
+
+li {
+    padding-right: 20px;
+    float: right;
+}
+
+h1 {
+    float: left;
+}
+
+hr {
+    background: blue;
+    padding: 10px 0;
+border: 0;
+}
+
+.main{
+    clear: both;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    background-color: grey;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.headshot {
+    float: left;
+    padding: 15px;
+}
+.paragraphs {
+    padding: 15px;
+}
+p {
+    font-size: 16px;
+}
+
+.footer {
+    clear: both;
+    text-align: center;
+}
+
