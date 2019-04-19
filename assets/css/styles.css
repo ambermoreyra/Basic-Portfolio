@@ -1,9 +1,12 @@
 body {
-    background: purple;
+    background-image: url(../images/memphis-mini.png);
+    margin: 0;
 }
 
 header {
-    background: white;
+    background:#ffffff;
+    border-bottom: 2px solid #cccccc;
+    padding: 1px;
 }
 
 .clearfix::after {
@@ -12,19 +15,30 @@ display: block;
 clear: both;
 }
 
-li {
-    padding-right: 20px;
-    float: right;
+ul {
+    list-style-type: none;
+    margin-right: 20px;
+    margin-bottom: 100px;
 }
+li {
+    color: #777777;
+    padding: 40px;
+    float: right;
+    }
 
 h1 {
+    margin-left: 100px;
+    margin-top: 0;
+    padding: 32px 20px;
     float: left;
+    color: white;
+    background: #4aaaa5;
 }
 
-hr {
-    background: blue;
-    padding: 10px 0;
-border: 0;
+h2 {
+    border-bottom: 2px solid #ccc;
+    color: #4aaaa5;
+    padding: 20px 0px;
 }
 
 .main{
@@ -32,18 +46,20 @@ border: 0;
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 10px;
-    background-color: grey;
-    padding-top: 10px;
-    padding-left: 10px;
+    background-color: white;
+    padding: 0 20px;
+
+    border: 2px solid #cccccc;
+    box-sizing: border-box;
 }
 
 .headshot {
     float: left;
-    padding: 15px;
+    padding-right: 10px;
+    height: 150px;
+    width: 100px;
 }
-.paragraphs {
-    padding: 15px;
-}
+
 p {
     font-size: 16px;
 }
@@ -51,5 +67,6 @@ p {
 .footer {
     clear: both;
     text-align: center;
+    background: #666666;
 }
 
