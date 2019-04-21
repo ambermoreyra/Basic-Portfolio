@@ -42,11 +42,12 @@ h1 {
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 10px;
-    background-color: white;
+    background-color:#ffffff;
     padding: 0 20px;
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-    border: 2px solid #cccccc;
+    border: 2px solid #dddddd;
     box-sizing: border-box;
+    color: #777777; 
 }
 
 h2 {
@@ -70,7 +71,7 @@ p {
 }
 
 .footer {
-    position: absolute;
+    flex-shrink: 0;
     clear: both;
     text-align: center;
     background: #666666;
@@ -82,3 +83,80 @@ p {
     border-top: 5px solid #4aaaa5;
 }
 
+.portfolio {
+    clear: both;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    background-color:#ffffff;
+    padding: 0 20px;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    border: 2px solid #dddddd;
+    box-sizing: border-box;
+    color: #777777  
+
+}
+
+.form {
+    clear: both;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    background-color: #ffffff;
+    padding: 0 20px;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    border: 2px solid #dddddd;
+    box-sizing: border-box;
+    color: #777777;
+
+}
+
+.container {
+    position: relative;
+}
+
+h3 {
+    position: absolute;
+}
+
+#hangman,
+#rpg,
+#trivia,
+#widget,
+#rock {
+    padding: 10px;
+}
+
+  .text {
+    width: 95%;  
+    padding: 10px;
+    margin: 10px 0;
+    border 1px solid #dddddd;
+     }
+
+  #submit {
+    background: #4aaaa5;
+    color: white;
+    border: none;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+  }
+ 
+    <div class="container">
+    <div class="row">
+        <div class="column">
+                <img id="hangman" src="assets/images/Hangman.jpg" alt="Hangman">
+                <img src="assets/images/RPG.jpg" alt="RPG Game">
+
+        </div>
+        <div class="column">
+                <img src="assets/images/Trivia.jpg" alt="Trivia Game">  
+            <img src="assets/images/Widget.jpg" alt="Rutgers Info Widget">
+        </div>
+        <div class="column">
+                <img src="assets/images/Rock.jpg" alt="Rock Paper Scissors">
+
+        </div>
+    </div>
+
+</div>
