@@ -111,28 +111,45 @@ p {
 
 }
 
-.container {
+.photo {
     position: relative;
+    padding: 10px;
+}
+
+.hangman,
+.rpg,
+.trivia,
+.widget,
+.rock {
+    height: 200px;
+    width: 250px;
 }
 
 h3 {
     position: absolute;
+    color: white;
+    background: #4aaaa5;
+    /* padding: 10px 57.5px; */
+    left: 10px;
+    z-index: 5;
+    bottom: 10px;
+    width: 250px;
+    text-align: center;
+    padding: 10px 0;
 }
 
-#hangman,
-#rpg,
-#trivia,
-#widget,
-#rock {
-    padding: 10px;
+.column1,
+.column2 {
+    display: flex;
+    flex-direction: row;
 }
-
   .text {
     width: 95%;  
     padding: 10px;
     margin: 10px 0;
-    border 1px solid #dddddd;
+    border: 1px solid #dddddd;
      }
+
 
   #submit {
     background: #4aaaa5;
@@ -142,21 +159,3 @@ h3 {
     padding: 10px 20px;
   }
  
-    <div class="container">
-    <div class="row">
-        <div class="column">
-                <img id="hangman" src="assets/images/Hangman.jpg" alt="Hangman">
-                <img src="assets/images/RPG.jpg" alt="RPG Game">
-
-        </div>
-        <div class="column">
-                <img src="assets/images/Trivia.jpg" alt="Trivia Game">  
-            <img src="assets/images/Widget.jpg" alt="Rutgers Info Widget">
-        </div>
-        <div class="column">
-                <img src="assets/images/Rock.jpg" alt="Rock Paper Scissors">
-
-        </div>
-    </div>
-
-</div>
